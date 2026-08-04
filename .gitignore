@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.log
+.DS_Store
+
+# Data
+*.csv
+*.zip
+*.parquet
+*.json
+
+# Docker
+postgres-data/
+kafka-data/
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H&M Recommendation Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<header>
+    <div class="logo">
+        <span>H&M</span>
+        <div>
+            <strong>Recommendation</strong>
+            <small>AI-powered fashion intelligence</small>
+        </div>
+    </div>
+
+    <div class="status">
+        <span></span>
+        API ONLINE
+    </div>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div class="hero-text">
+            <p class="eyebrow">PERSONALIZED SHOPPING</p>
+            <h1>Find what<br><span>fits you.</span></h1>
+            <p class="subtitle">
+                Discover personalized H&M products powered by our
+                machine-learning recommendation engine.
+            </p>
+
+            <div class="search-box">
+                <input
+                    id="customerId"
+                    type="text"
+                    placeholder="Enter customer ID..."
+                >
+                <button onclick="getRecommendations()">
+                    Get Recommendations →
+                </button>
+            </div>
+
+            <p id="error" class="error"></p>
+        </div>
+
+        <div class="hero-card">
+            <div class="orb"></div>
+            <div class="card-content">
+                <span>ALS MODEL</span>
+                <h2>Personalized<br>Recommendations</h2>
+                <div class="mini-stats">
+                    <div>
+                        <strong>10</strong>
+                        <small>TOP PICKS</small>
+                    </div>
+                    <div>
+                        <strong>ALS</strong>
+                        <small>MODEL</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="results" class="results hidden">
+
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">YOUR RESULTS</p>
+                <h2>Recommended for you</h2>
+            </div>
+
+            <span id="customerLabel"></span>
+        </div>
+
+        <div id="recommendationGrid" class="grid"></div>
+
+    </section>
+
+</main>
+
+<footer>
+    <span>H&M Data Lake</span>
+    <span>HDFS • Spark • ALS • PostgreSQL • FastAPI</span>
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
