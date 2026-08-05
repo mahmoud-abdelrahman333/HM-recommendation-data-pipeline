@@ -3,6 +3,15 @@
 # H&M Personalized Fashion Recommendation System
 
 ### End-to-End Big Data & Machine Learning Recommendation Platform
+## Dataset
+
+This project uses the [H&M Personalized Fashion Recommendations](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data) dataset from Kaggle.
+
+The dataset contains three primary files:
+
+- `articles.csv` — Product/article information
+- `customers.csv` — Customer information
+- `transactions_train.csv` — Historical customer-product interactions
 
 <p>
   <img src="https://img.shields.io/badge/Apache%20Kafka-Data%20Ingestion-231F20?logo=apachekafka&logoColor=white" alt="Kafka">
