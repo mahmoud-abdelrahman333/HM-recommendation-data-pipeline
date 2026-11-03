@@ -3,7 +3,10 @@
 # H&M Personalized Fashion Recommendation System
 
 ### End-to-End Big Data & Machine Learning Recommendation Platform
-## Dataset
+
+## Project Workflow
+
+![H&M recommendation data pipeline workflow](hm_workflow.jpeg)
 
 
 <p>
