@@ -4,9 +4,7 @@
 
 ### End-to-End Big Data & Machine Learning Recommendation Platform
 
-## Project Workflow
 
-![H&M recommendation data pipeline workflow](hm_workflow.jpeg)
 
 
 <p>
@@ -34,6 +32,9 @@
 </div>
 
 ---
+## Project Workflow
+
+![H&M recommendation data pipeline workflow](hm_workflow.jpeg)
 
 ## Dataset
 
